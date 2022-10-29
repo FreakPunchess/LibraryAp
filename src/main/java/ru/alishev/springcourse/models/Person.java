@@ -9,6 +9,7 @@ import javax.validation.constraints.Size;
  * @author Neil Alishev
  */
 public class Person {
+
     private int id;
 
     @NotEmpty(message = "Поле имя не может быть пустым")
